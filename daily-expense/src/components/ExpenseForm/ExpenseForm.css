@@ -1,0 +1,84 @@
+.expense {
+  padding: 1rem;
+  background-color: #a892ee;
+  width: 50rem;
+  margin: 2rem auto;
+  max-width: 95%;
+  text-align: center;
+}
+
+.expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.expense__control span {
+  display: block;
+  color: rgb(214, 28, 28);
+}
+
+.expense label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.expense input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 15rem;
+  max-width: 100%;
+}
+
+.expense__input_error {
+  border:2px solid rgb(231, 114, 18) !important;
+}
+
+.expense .expense__image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.expense .expense__image label {
+  border: 1px solid #8013b3;
+  background-color: #8013b3;
+  display: inline-block;
+  border-radius:12px;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.expense .expense__image label:hover,
+.expense .expense__image label:active {
+  background-color: #510674;
+  border-color: #510674;
+}
+
+.expense .expense__image input {
+  display: none;
+}
+
+.expense .expense__actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.expense .expense__actions button:hover,
+.expense .expense__actions button:active {
+  background-color: #510674;
+  border-color: #510674;
+}
